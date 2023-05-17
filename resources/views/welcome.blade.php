@@ -147,7 +147,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/vp5rxt'" style="background-color: #00ee00; color: #fff;";>
+            onclick="window.location.href='https://wa.link/vp5rxt'" ;>
             WHATSAPP
           </button>
         </div>
@@ -164,11 +164,11 @@
       SEGURIDAD EN TODO LUGAR
       </h1>
       <p class="leading-normal text-3xl mb-8">
-      ◉ SISTEMAS DE VIDEOVIGILANCIA
+      🟠 SISTEMAS DE VIDEOVIGILANCIA
       <br />
-      ◉ GPS
+      🟠 GPS
       <br />
-      ◉ CERCOS ELECTRIFICADOS
+      🟠 CERCOS ELECTRIFICADOS
       </p>
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'">
@@ -293,7 +293,7 @@
             <a href="https://disysco.com.mx/contacto/" class="flex flex-wrap no-underline hover:no-underline ">
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
-              SISTEMAS DE VIDEOVIGILANCIA
+              SISTEMAS DE VIDEOVIGILANCIA 
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>

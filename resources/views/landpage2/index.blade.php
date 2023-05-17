@@ -29,7 +29,7 @@
     <!-- Define your gradient here - use online tools to find a gradient matching your branding AZUL #04b5d9  NARANJA #f77320 -->
     <style>
       .gradient {
-        background: linear-gradient(90deg, #163d5a 0%, #ed7514 100%);
+        background: linear-gradient(90deg, #1F47B4 0%, #F55C1D 100%);
       }
       #header {
       background-color: rgba(255, 255, 255, 0.8);
@@ -57,12 +57,6 @@
         height: 300px ;
       }  
 
-     /*  .container {
-  display: flex;
-  justify-content: flex-end;
-}
-       */
-       /* Estilos para el botón */
   .btn {
     background-color: #f77320;
     color: white;
@@ -131,24 +125,11 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             
-              
-              <!-- <p class="leading-normal text-2xl mb-8 text-black text-center">
-              ¡Haz tus cotizaciones!
-              </p>
-            </li> -->
-            
              <li class="mr-3">
               
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://wa.link/4sx8d7">¡Haz tus cotizaciones!</a>
             </li>
-            <!--<li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-            </li> -->
           </ul>
-          <!-- <a href="https://wa.link/vp5rxt">
-          <img class="h-20 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="wp.png"  />
-          </a> -->
-         
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
@@ -167,12 +148,12 @@
     <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
       <!-- <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p> -->
       <h1 class="my-4 text-6xl  font-bold leading-tight " style="color: #163d5a;">
-        DISEÑO DE TU MARCA
+        DISEÑA TU MARCA
       </h1>
       <p class="leading-normal text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
-        ◉ En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
+      🟠 En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
         <br/>
-        ◉ Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
+      🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
       </p>
       
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
@@ -182,6 +163,7 @@
       <br />
       <br />
       <br />
+      
     </div>
     <!-- Right Col -->
     <div class="w-full md:w-1/2">
@@ -190,10 +172,18 @@
         <img src="logomark.png" />
       </div>
     </div>
+    
   </div>
+  
 </div>
 
-<!-- <section >
+<section>
+  
+</section>
+<section >
+  <br/>
+  <br/>
+  
   <div class="relative -mt-12 lg:-mt-24 animate__animated animate__fadeIn">
     <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -215,9 +205,7 @@
       </g>
     </svg>
   </div>
-</section> -->
-
-      
+</section>
 
 
 <!-- slider -->
@@ -269,22 +257,10 @@
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         
-       
-       
-
-      <div class="w-full mb-4">
-  <div class="h-10 mx-auto gradient w-4/4 opacity-25 my-0 py-0 rounded-t"></div>
-</div>
-        <!-- <div class="w-full  mb-4">
-          
-          <div class="h-1  mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          
-        </div> -->
-        
         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
       <br/>
-        <a href="https://disysco.com.mx/contacto/" class="flex flex-wrap no-underline hover:no-underline">
+        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
             MARKETING
           </div>
@@ -390,17 +366,17 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
       <br/>
       Conoce nuestra Facturación electrónica donde ponemos a punto una plataforma de facturación electrónica, que le permitirá generar cualquier comprobante fiscal CFDI: 
         <br/>
-        ◉ Factura 
+        🟠 Factura 
         <br/>
-        ◉ Comprobantes de pago 
+        🟠 Comprobantes de pago 
         <br/>
-        ◉ Recibos
+        🟠 Recibos
         <br/>
-        ◉ Carta Porte
+        🟠 Carta Porte
         <br/>
-        ◉ Honorarios
+        🟠 Honorarios
         <br/>
-        ◉ Nómina (Versión 3.3 y 4.0) 
+        🟠 Nómina (Versión 3.3 y 4.0) 
 <br/>
 Desde cualquier dispositivo con acceso a internet.
       </p>
@@ -483,28 +459,29 @@ Desde cualquier dispositivo con acceso a internet.
       </g>
     </svg> -->
     <section class="container mx-auto text-center py-6 mb-12">
-    <img class="h-24 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
-      <!-- <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        CONTÁCTANOS
-      </h2> -->
-      <div class="w-full md:w-1/1 animate__animated animate__fadeInRight">
+
+      <div class="pt-24">
+  <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <!--Left Col-->
+    <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
+   
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
         <form method="post">
           @csrf
-          <div class="form-group flex flex-col">
+          <div class="form-group flex flex-col text-left">
               <label for="nombre">Nombre</label>
               <input type="text" name="nombre" id="nombre" class="form-control" required>
           </div>
-          <div class="form-group flex flex-col">
+          <div class="form-group flex flex-col text-left">
               <label for="correo">Correo</label>
               <input type="email" name="correo" id="correo" class="form-control" required>
           </div>
-          <div class="form-group flex flex-col">
+          <div class="form-group flex flex-col text-left">
               <label for="telefono">Teléfono</label>
               <input type="tel" name="telefono" id="telefono" class="form-control" required>
           </div>
-          <div class="form-group flex flex-col">
+          <div class="form-group flex flex-col text-left">
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
@@ -512,22 +489,22 @@ Desde cualquier dispositivo con acceso a internet.
         </form>
       </div> 
     </div>
-  </div>
-</div>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <h3 class="my-4 text-2xl leading-tight">
+    <!--Right Col-->
+    <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
+      
+    <img class="h-24 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
+    <h3 class="my-4 text-2xl leading-tight text-center">
         Atención y Ventas Telefónicas
         <br/>
-        <i class="fas fa-phone mr-2"></i>722 934 6686
+        <i class="fas fa-phone mr-2"> +52 722 934 6686</i>
         <br/>
-        <i class="fas fa-phone mr-2"></i>722 943 6687
+        <i class="fas fa-phone mr-2"> +52 722 943 6687</i>
       </h3>
-      <!-- <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://wa.link/vp5rxt'">
-        WhatsApp
-      </button> -->
+
+    </div>
+  </div>
+</div>
+
     </section>
     <!--Footer-->
     <footer class="bg-white">
@@ -554,17 +531,7 @@ Desde cualquier dispositivo con acceso a internet.
               </li>
             </ul>
           </div>
-         <!--  <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
-              </li>
-            </ul>
-          </div> -->
+
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Redes Sociales</p>
             <ul class="list-reset mb-6">
