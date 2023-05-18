@@ -147,7 +147,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/vp5rxt'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/vp5rxt'" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -171,7 +171,7 @@
       </p>
      
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'" style="background-color: #ed7514; color: #fff;">
+      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'" style="background-color: #f7630c; color: #fff;">
         ¡CONOCENOS!
       </button>
      
@@ -300,7 +300,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/urn1e2'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/urn1e2'" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -336,7 +336,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/wqaowb'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/wqaowb'" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -374,7 +374,7 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
             <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/8hatrs'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/8hatrs'" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
             </div>
@@ -424,7 +424,7 @@ Desde cualquier dispositivo con acceso a internet.
             <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/vwbisg'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/vwbisg'" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
             </div>

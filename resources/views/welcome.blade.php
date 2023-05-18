@@ -318,7 +318,7 @@
               <button 
                 id="navAction"
                 class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                onclick="window.location.href='https://wa.link/9b4uzc'" style="background-color: #ed7514; color: #fff;";>
+                onclick="window.location.href='https://wa.link/9b4uzc'" style="background-color: #f7630c; color: #fff;";>
                 WHATSAPP
               </button>
             </div>
@@ -374,7 +374,7 @@
               <button 
                 id="navAction"
                 class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow  focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                onclick="window.location.href='https://wa.link/xyg41e'" style="background-color: #ed7514; color: #fff;";>
+                onclick="window.location.href='https://wa.link/xyg41e'" style="background-color: #f7630c; color: #fff;";>
                 WHATSAPP
               </button>
             </div>
@@ -406,7 +406,7 @@
               <button 
                 id="navAction"
                 class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                onclick="window.location.href='https://wa.link/0gw29g'" style="background-color: #ed7514; color: #fff;";>
+                onclick="window.location.href='https://wa.link/0gw29g'" style="background-color: #f7630c; color: #fff;";>
                 WHATSAPP
               </button>
             </div>
