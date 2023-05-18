@@ -163,7 +163,7 @@
       <h1 class="my-4 text-6xl font-bold leading-tight">
       SEGURIDAD EN TODO LUGAR
       </h1>
-      <p class="leading-normal text-3xl mb-8">
+      <p class="leading-normal text-3xl mb-8 text-left">
       🟠 SISTEMAS DE VIDEOVIGILANCIA
       <br />
       🟠 GPS
@@ -297,10 +297,13 @@
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
-              Vigila y monitorea un área determinada, ya sea en un hogar o en un negocio, con el objetivo de detectar actividad sospechosa o inusual, registrar 
-              incidentes y ayudar a prevenir delitos. Graba o transmite en vivo las imágenes capturadas, permitiendo a los propietarios verificar lo que sucede en su propiedad en tiempo real o revisar las grabaciones en caso de un incidente.
+              🟠 Vigila y protege tu hogar o negocio con nuestras cámaras de seguridad.
               <br/>
-              Además, las cámaras de seguridad pueden ser integradas con otros sistemas de seguridad, como alarmas y sistemas de control de acceso, para brindar una mayor protección a su hogar o negocio.
+              🟠 Detecta actividades sospechosas, registra incidentes y previene delitos.
+              <br/>
+              🟠 Transmite en vivo o graba imágenes para supervisar tu propiedad en tiempo real.
+              <br/>
+              🟠 Integra las cámaras con sistemas de seguridad adicionales para una protección completa.
               </p>
             </a>
           </div>
@@ -334,11 +337,11 @@
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
               <br/>
-              
-              Sistemas de rastreo, se puede utilizar tanto para fines de seguimiento de vehículos privados y de negocios. Nuestros dispositivos GPS le ayudarán a ahorrar tiempo y dinero al reducir las horas perdidas tratando de averiguar dónde están sus automóviles y su personal.
+              🟠 Ahorre tiempo y dinero con nuestros sistemas de rastreo GPS.
               <br />
-              Rastreo y seguimiento satelital GPS en tiempo real de su flota o flotilla
+              🟠 Rastreo y seguimiento satelital GPS en tiempo real de su flota o flotilla.
               <br />
+              🟠 Maximice la eficiencia de sus operaciones con nuestra avanzada tecnología de seguimiento satelital.
               
               <!-- <div class="text-gray-800 text-base px-6 mb-5 grid grid-cols-2">
   <div class="divide-x">
@@ -385,11 +388,11 @@
       </div>
       <p class="text-gray-800 text-base px-6 mb-5 text-justify">
       <br/>
-      Es una herramienta de seguridad que se coloca en un perímetro determinado para proteger personas o instalaciones. También se le conoce con el nombre de valla electrificada. 
-Los cercos eléctricos pueden activarse de manera permanente para funcionar las 24 horas. 
-<br/>
-Esto nos garantiza una protección contínua sin que tengamos que hacer nada más. La sola presencia de un cerco eléctrico hace que los intrusos no intenten acercarse al perímetro.
-      </p>
+      🟠 Los cercos eléctricos pueden activarse de manera permanente para funcionar las 24 horas y tener una protección continua sin esfuerzo. 
+      <br/>
+      🟠 Disuade a los intrusos con su mera presencia, manteniendo a salvo a personas e instalaciones.
+      <br/>
+      🟠 Protege tu perímetro con nuestra valla electrificada.
     </a>
   </div> 
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
@@ -481,9 +484,9 @@ Esto nos garantiza una protección contínua sin que tengamos que hacer nada má
       <h3 class="my-4 text-2xl leading-tight">
         Atención y Ventas Telefónicas
         <br/>
-        <i class="fas fa-phone mr-2"></i>722 934 6686
+        <i class="fas fa-phone mr-2"> +52 722 934 6686</i>
         <br/>
-        <i class="fas fa-phone mr-2"></i>722 943 6687
+        <i class="fas fa-phone mr-2"> +52 722 943 6687</i>
       </h3>
       <!-- <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://wa.link/vp5rxt'">

@@ -96,6 +96,20 @@
   transform: scale(1.1);
 }
 
+ /* Estilos para pantallas grandes */
+ @media (min-width: 768px) {
+    p {
+      font-size: 2xl; /* Tamaño de fuente para pantallas grandes */
+    }
+  }
+
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 50px) {
+    p {
+      font-size: lg; /* Tamaño de fuente ajustado para dispositivos móviles */
+    }
+  }
+
     </style>
   
   </head>
@@ -150,16 +164,17 @@
       <h1 class="my-4 text-6xl  font-bold leading-tight " style="color: #163d5a;">
         DISEÑA TU MARCA
       </h1>
-      <p class="leading-normal text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
+      <p class="leading-normal text-lg md:text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
       🟠 En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
         <br/>
       🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
       </p>
-      
+     
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'" style="background-color: #ed7514; color: #fff;">
         ¡CONOCENOS!
       </button>
+     
       <br />
       <br />
       <br />
@@ -263,6 +278,10 @@
         <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
             MARKETING
+            <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
           </div>
           <p class="text-gray-800 text-base px-6 mb-5 text-justify" >
             <br/>
@@ -281,7 +300,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/xlhnz3'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/urn1e2'" style="background-color: #ed7514; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -294,6 +313,10 @@
         <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
             MARKETING DIGITAL
+            <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
           </div>
           <p class="text-gray-800 text-base px-6 mb-5 text-justify">
             <br/>
@@ -313,7 +336,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/7pefds'" style="background-color: #ed7514; color: #fff;";>
+            onclick="window.location.href='https://wa.link/wqaowb'" style="background-color: #ed7514; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -326,6 +349,10 @@
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
               DESARROLLO WEB Y APPS
+              <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
@@ -361,6 +388,10 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
                 
       <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
         FACTURACIÓN ELECTRÓNICA
+        <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
       </div>
       <p class="text-gray-800 text-base px-6 mb-5 text-justify">
       <br/>
@@ -402,7 +433,7 @@ Desde cualquier dispositivo con acceso a internet.
       </div>
     </section>
 
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8 ">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800" style="color: #163d5a;">
         ¿POR QUÉ NOSOTROS?
@@ -410,8 +441,8 @@ Desde cualquier dispositivo con acceso a internet.
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
+        <div  class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+          <div class="w-5/6 sm:w-1/2 p-6 ">
              <!-- <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
               ¿Por qué elegirnos?
             </h3> --> 
@@ -424,14 +455,9 @@ Desde cualquier dispositivo con acceso a internet.
           </div>
           
           <div class="w-full sm:w-1/2 p-6">
-
           <img class="h-64 fill-current inline image-zoom" src="marketing.png">
-          
-            
           </div>
-        </div>
-        
-          
+        </div>                  
         </div>
       </div>
     </section>
