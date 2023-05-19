@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Landpage2Controller;
+use App\Http\Controllers\Landpage1Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +20,6 @@ Route::get('/', function () {
 });
 
 Route::resource('landpage2', Landpage2Controller::class);
+Route::resource('landpage1', Landpage1Controller::class);
 /* Route::post('landpage2', 'App\Http\Controllers\Landpage2Controller@store'); */
 /* Route::post('landpage2', [Landpage2Controller::class, 'store']); */
