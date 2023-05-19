@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Providers;
-
+use App\Models\Landpage2;
+use App\Policies\Landpage2Policy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
@@ -14,6 +15,7 @@ class AuthServiceProvider extends ServiceProvider
      */
     protected $policies = [
         // 'App\Models\Model' => 'App\Policies\ModelPolicy',
+        Landpage2::class => Landpage2Policy::class,
     ];
 
     /**

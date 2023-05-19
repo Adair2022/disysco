@@ -190,11 +190,15 @@
           </div>
           <div class="form-group flex flex-col">
               <label for="correo">Correo</label>
-              <input type="email" name="correo" id="correo" class="form-control" required>
+              <input type="email" name="email" id="email" class="form-control" required>
           </div>
           <div class="form-group flex flex-col">
               <label for="telefono">Teléfono</label>
               <input type="tel" name="telefono" id="telefono" class="form-control" required>
+          </div>
+          <div class="form-group flex flex-col text-left">
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
           <button type="submit" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
         </form>
@@ -279,11 +283,11 @@
        
 
 
-        <div class="w-full  mb-4">
+        <!-- <div class="w-full  mb-4">
           
           <div class="h-1  mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
           
-        </div>
+        </div> -->
         
         <div class="w-full  md:w-1/3 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom"  >
 
@@ -294,6 +298,10 @@
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
               SISTEMAS DE VIDEOVIGILANCIA 
+              <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
@@ -333,6 +341,10 @@
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
                 GPS
+                <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
@@ -385,6 +397,10 @@
                 <a href="#" class="flex flex-wrap no-underline hover:no-underline">      
       <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
         CERCOS ELECTRIFICADOS
+        <div class="w-full mb-4">
+          <br/>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
       </div>
       <p class="text-gray-800 text-base px-6 mb-5 text-justify">
       <br/>

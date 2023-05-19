@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::resource('landpage2', Landpage2Controller::class);
+/* Route::post('landpage2', 'App\Http\Controllers\Landpage2Controller@store'); */
+/* Route::post('landpage2', [Landpage2Controller::class, 'store']); */

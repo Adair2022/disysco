@@ -14,7 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('landpage2s', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            
+            $table->string("nombre",60);
+            $table->string("email");
+            $table->string("telefono");
+            $table->string("asunto");
             $table->timestamps();
         });
     }

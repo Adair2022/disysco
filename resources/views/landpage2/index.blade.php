@@ -166,7 +166,7 @@
       </h1>
       <p class="leading-normal text-lg md:text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
       🟠 En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
-        <br/>
+        <br/><br/>
       🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
       </p>
      
@@ -184,7 +184,7 @@
     <div class="w-full md:w-1/2">
       <div class="container mx-auto animate__animated animate__fadeInRight">
         <!-- <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1> -->
-        <img src="logomark.png" />
+        <img class="h-auto" src="logomark.png" />
       </div>
     </div>
     
@@ -493,25 +493,26 @@ Desde cualquier dispositivo con acceso a internet.
    
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
-        <form method="post">
+        <form method="post" action="{{ url('landpage2')}}" id="agregar"  enctype="multipart/form-data">
           @csrf
           <div class="form-group flex flex-col text-left">
               <label for="nombre">Nombre</label>
               <input type="text" name="nombre" id="nombre" class="form-control" required>
           </div>
           <div class="form-group flex flex-col text-left">
-              <label for="correo">Correo</label>
-              <input type="email" name="correo" id="correo" class="form-control" required>
+              <label for="email">Correo</label>
+              <input type="email" name="email" id="email" class="form-control" required>
           </div>
           <div class="form-group flex flex-col text-left">
               <label for="telefono">Teléfono</label>
               <input type="tel" name="telefono" id="telefono" class="form-control" required>
           </div>
+          
           <div class="form-group flex flex-col text-left">
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
-          <button type="submit" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          <button type="submit" value="save" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
         </form>
       </div> 
     </div>

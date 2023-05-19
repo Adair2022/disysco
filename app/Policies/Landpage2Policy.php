@@ -42,6 +42,7 @@ class Landpage2Policy
     public function create(User $user)
     {
         //
+        return true;
     }
 
     /**

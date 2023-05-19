@@ -30,6 +30,10 @@ class Landpage2Controller extends Controller
     public function create()
     {
         //
+        /* return view("landpage2.create"); */
+
+        $landpage2 = Landpage2::all();
+        return view('landpage2.create' ,compact('landpage2'));
     }
 
     /**
@@ -41,6 +45,24 @@ class Landpage2Controller extends Controller
     public function store(StoreLandpage2Request $request)
     {
         //
+        /* $landpage2=Landpage2->all();
+        Landpage2::create($landpage2);
+        return view('landpage2.index',compact('landpage2')); */
+        $landpage2=$request->all();
+
+        Landpage2::create($landpage2);
+        return redirect()->route('landpage2.index')->with('agregar','Ok');
+
+        /* $attributes = $request->validated(); // Obtener los atributos validados desde el formulario
+
+        $landpage2 = Landpage2::create($attributes); // Crear un nuevo registro con los atributos
+    
+        return view('landpage2.index', compact('landpage2')); */
+
+        /* $data = $request->validated();
+    Landpage2::create($data);
+    return redirect()->route('landpage2.index'); */
+       
     }
 
     /**
