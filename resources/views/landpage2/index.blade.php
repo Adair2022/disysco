@@ -515,10 +515,25 @@ Desde cualquier dispositivo con acceso a internet.
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
-          <button type="submit" value="save" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          <div id="success-message" class="hidden bg-green-200 text-green-800 p-2 rounded my-4">
+    Se envió correctamente.
+</div>
         </form>
       </div> 
     </div>
+
+    <script>
+    function mostrarMensaje() {
+        var successMessage = document.getElementById('success-message');
+        successMessage.classList.remove('hidden');
+        setTimeout(function() {
+            successMessage.classList.add('hidden');
+        }, 3000); // La duración en milisegundos antes de que el mensaje desaparezca (en este caso, 3 segundos)
+    }
+</script>
+
+
     <!--Right Col-->
     <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
       
@@ -554,10 +569,10 @@ Desde cualquier dispositivo con acceso a internet.
             <ul class="list-reset mb-6">
               
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Ayuda</a>
+                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Ayuda</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Soporte</a>
+                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Soporte</a>
               </li>
             </ul>
           </div>
@@ -566,10 +581,10 @@ Desde cualquier dispositivo con acceso a internet.
             <p class="uppercase text-gray-500 md:mb-6">Redes Sociales</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://www.facebook.com/disyscomexico/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="https://www.facebook.com/disyscomexico/" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://instagram.com/disyscomx?igshid=MzRlODBiNWFlZA==" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Instagram</a>
+                <a href="https://instagram.com/disyscomx?igshid=MzRlODBiNWFlZA==" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Instagram</a>
               </li>
              
             </ul>
@@ -578,11 +593,11 @@ Desde cualquier dispositivo con acceso a internet.
             <p class="uppercase text-gray-500 md:mb-6">Empresa</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://disysco.com.mx/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Pagina Web</a>
+                <a href="https://disysco.com.mx/" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Pagina Web</a>
               </li>
               
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://maps.app.goo.gl/V5mCdnoZk1gCsEbX6" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Ubicación</a>
+                <a href="https://maps.app.goo.gl/V5mCdnoZk1gCsEbX6" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Ubicación</a>
               </li>
             </ul>
           </div>
