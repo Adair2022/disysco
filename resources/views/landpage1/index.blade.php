@@ -174,12 +174,13 @@
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'">
         ¡CONOCENOS!
       </button>
+      
       <br />
       <br />
       <br />
     </div>
     <!--Right Col-->
-    <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
+    <div  class="w-full md:w-1/2 animate__animated animate__fadeInRight">
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
         <form method="post" action="{{ url('landpage1')}}" id="agregar"  enctype="multipart/form-data">
