@@ -141,13 +141,13 @@
             
              <li class="mr-3">
               
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://wa.link/4sx8d7">¡Haz tus cotizaciones!</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://wa.link/vp5rxt" target="_blanck">¡Haz tus cotizaciones!</a>
             </li>
           </ul>
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/vp5rxt'" style="background-color: #f7630c; color: #fff;";>
+            onclick="window.open('https://wa.link/vp5rxt', '_blank')" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -161,7 +161,7 @@
     <!-- Left Col -->
     <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
       <!-- <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p> -->
-      <h1 class="my-4 text-6xl  font-bold leading-tight " style="color: #163d5a;">
+      <h1 class="my-4 text-7xl  font-bold leading-tight " style="color: #163d5a;">
         DISEÑA TU MARCA
       </h1>
       <p class="leading-normal text-lg md:text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
@@ -171,13 +171,14 @@
       </p>
      
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://disysco.com.mx/'" style="background-color: #f7630c; color: #fff;">
+      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.open('https://disysco.com.mx/', '_blank')" style="background-color: #f7630c; color: #fff;">
         ¡CONOCENOS!
       </button>
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='#form'" style="background-color: #f7630c; color: #fff;">
         ¡REGISTRATE!
       </button>
+
       <br />
       <br />
       <br />
@@ -303,7 +304,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/urn1e2'" style="background-color: #f7630c; color: #fff;";>
+             onclick="window.open('https://wa.link/urn1e2', '_blank')"style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -339,7 +340,7 @@
           <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/wqaowb'" style="background-color: #f7630c; color: #fff;";>
+            onclick="window.open('https://wa.link/wqaowb','_blanck')" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
@@ -377,7 +378,7 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
             <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/8hatrs'" style="background-color: #f7630c; color: #fff;";>
+            onclick="window.open('https://wa.link/8hatrs','_blanck')" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
             </div>
@@ -427,7 +428,7 @@ Desde cualquier dispositivo con acceso a internet.
             <button 
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.location.href='https://wa.link/vwbisg'" style="background-color: #f7630c; color: #fff;";>
+            onclick="window.open('https://wa.link/vwbisg','_blanck')" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
             </div>
@@ -568,12 +569,17 @@ Desde cualquier dispositivo con acceso a internet.
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Ayuda</a>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="https://wa.link/axb1y4" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Soporte</a>
+                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ayuda</a>
               </li>
+              
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
+              </li>
+              
             </ul>
           </div>
 
@@ -581,10 +587,10 @@ Desde cualquier dispositivo con acceso a internet.
             <p class="uppercase text-gray-500 md:mb-6">Redes Sociales</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://www.facebook.com/disyscomexico/" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Facebook</a>
+                <a href="https://www.facebook.com/disyscomexico/" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blank">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://instagram.com/disyscomx?igshid=MzRlODBiNWFlZA==" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Instagram</a>
+                <a href="https://instagram.com/disyscomx?igshid=MzRlODBiNWFlZA==" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Instagram</a>
               </li>
              
             </ul>
@@ -593,11 +599,11 @@ Desde cualquier dispositivo con acceso a internet.
             <p class="uppercase text-gray-500 md:mb-6">Empresa</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://disysco.com.mx/" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Pagina Web</a>
+                <a href="https://disysco.com.mx/" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Pagina Web</a>
               </li>
               
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://maps.app.goo.gl/V5mCdnoZk1gCsEbX6" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Ubicación</a>
+                <a href="https://maps.app.goo.gl/V5mCdnoZk1gCsEbX6" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blank">Ubicación</a>
               </li>
             </ul>
           </div>
