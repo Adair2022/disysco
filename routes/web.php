@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('landpage2', Landpage2Controller::class);
-Route::resource('landpage1', Landpage1Controller::class);
+Route::resource('landmarketing', Landpage2Controller::class);
+Route::resource('landseguridad', Landpage1Controller::class);
 /* Route::post('landpage2', 'App\Http\Controllers\Landpage2Controller@store'); */
 /* Route::post('landpage2', [Landpage2Controller::class, 'store']); */

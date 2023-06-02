@@ -174,7 +174,6 @@
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"  onclick="window.open('https://disysco.com.mx/','_blanck')";>
         ¡CONOCENOS!
       </button>
-      
       <br />
       <br />
       <br />
@@ -183,7 +182,7 @@
     <div  class="w-full md:w-1/2 animate__animated animate__fadeInRight">
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
-        <form method="post" action="{{ url('landpage1')}}" id="agregar"  enctype="multipart/form-data">
+        <form method="post" action="{{ url('landseguridad')}}" id="agregar"  enctype="multipart/form-data">
           @csrf
           <div class="form-group flex flex-col text-left">
               <label for="nombre">Nombre</label>
@@ -202,11 +201,8 @@
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
-          <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          <button type="submit" value="save" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
         </form>
-        <!-- <div id="success-message" class="hidden bg-green-200 text-green-800 p-2 rounded my-4">
-    Se envió correctamente.
-</div> -->
       </div> 
     </div>
   </div>
@@ -307,7 +303,7 @@
         
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow" >
             
-            <a href="https://disysco.com.mx/contacto/" class="flex flex-wrap no-underline hover:no-underline ">
+            <a  class="flex flex-wrap no-underline hover:no-underline ">
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
               SISTEMAS DE VIDEOVIGILANCIA 
@@ -350,7 +346,7 @@
 
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom"  >
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <a  class="flex flex-wrap no-underline hover:no-underline">
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
                 GPS
@@ -367,23 +363,6 @@
               🟠 Rastreo y seguimiento satelital GPS en tiempo real de su flota o flotilla.
               <br />
               🟠 Maximice la eficiencia de sus operaciones con nuestra avanzada tecnología de seguimiento satelital.
-              
-              <!-- <div class="text-gray-800 text-base px-6 mb-5 grid grid-cols-2">
-  <div class="divide-x">
-    <p class="px-2 py-1">Mantenimiento preventivo</p>
-    <p class="px-2 py-1">Formateo de equipo</p>
-    <p class="px-2 py-1">Licenciamiento</p>
-    <p class="px-2 py-1">Virtualizaciones</p>
-    <p class="px-2 py-1">Software</p>
-  </div>
-  <div class="divide-x">
-    <p class="px-2 py-1">Seguridad</p>
-    <p class="px-2 py-1">Legalizaciones</p>
-    <p class="px-2 py-1">Soporte a redes</p>
-    <p class="px-2 py-1">Servidores</p>
-    <p class="px-2 py-1">ASPEL</p>
-  </div>
-</div> -->
               </p>
               
             </a>
@@ -407,7 +386,7 @@
         </div>
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom" >
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                <a href="#" class="flex flex-wrap no-underline hover:no-underline">      
+                <a  class="flex flex-wrap no-underline hover:no-underline">      
       <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2rem; color: #163d5a;">
         CERCOS ELECTRIFICADOS
         <div class="w-full mb-4">

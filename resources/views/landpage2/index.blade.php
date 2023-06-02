@@ -279,7 +279,7 @@
         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
       <br/>
-        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+        <a  class="flex flex-wrap no-underline hover:no-underline">
           <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
             MARKETING
             <div class="w-full mb-4">
@@ -314,7 +314,7 @@
     <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
       <br/>
-        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+        <a class="flex flex-wrap no-underline hover:no-underline">
           <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
             MARKETING DIGITAL
             <div class="w-full mb-4">
@@ -349,7 +349,7 @@
         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
           <br/>
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <a  class="flex flex-wrap no-underline hover:no-underline">
               
               <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
               DESARROLLO WEB Y APPS
@@ -388,7 +388,7 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <br/>
-                <a href="#" class="flex flex-wrap no-underline hover:no-underline">     
+                <a class="flex flex-wrap no-underline hover:no-underline">     
                 
       <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
         FACTURACIÓN ELECTRÓNICA
@@ -497,7 +497,7 @@ Desde cualquier dispositivo con acceso a internet.
    
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
-        <form method="post" action="{{ url('landpage2')}}" id="agregar"  enctype="multipart/form-data">
+        <form method="post" action="{{ url('landmarketing')}}" id="agregar"  enctype="multipart/form-data">
           @csrf
           <div class="form-group flex flex-col text-left">
               <label for="nombre">Nombre</label>

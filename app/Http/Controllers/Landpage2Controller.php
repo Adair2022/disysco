@@ -51,7 +51,7 @@ class Landpage2Controller extends Controller
         $landpage2=$request->all();
 
         Landpage2::create($landpage2);
-        return redirect()->route('landpage2.index')->with('agregar','Ok');
+        return redirect()->route('landmarketing.index')->with('agregar','Ok');
 
         /* $attributes = $request->validated(); // Obtener los atributos validados desde el formulario
 

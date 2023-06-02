@@ -46,7 +46,7 @@ class Landpage1Controller extends Controller
         $landpage1=$request->all();
 
         Landpage1::create($landpage1);
-        return redirect()->route('landpage1.index')->with('agregar','Ok');
+        return redirect()->route('landseguridad.index')->with('agregar','Ok');
     }
 
     /**
