@@ -96,6 +96,8 @@
   transform: scale(1.1);
 }
 
+
+
  /* Estilos para pantallas grandes */
  @media (min-width: 768px) {
     p {
@@ -109,6 +111,7 @@
       font-size: lg; /* Tamaño de fuente ajustado para dispositivos móviles */
     }
   }
+
 
     </style>
   
@@ -156,33 +159,29 @@
     </nav>
 <!-- PRUEBA FORM -->
 
-<div class="pt-24 bg-white">
+<div class="pt-10  bg-white">
   <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <!-- Left Col -->
     <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
       <!-- <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p> -->
-      <h1 class="my-4 text-7xl  font-bold leading-tight " style="color: #163d5a;">
-        DISEÑA TU MARCA
+      <h1 class="my-4 text-6xl md:text-8xl font-bold" style="color: #163d5a;">
+        SOLUCIONES DIGITALES
       </h1>
       <p class="leading-normal text-lg md:text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
       🟠 En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
         <br/><br/>
       🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
       </p>
-     
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
+      <div class="flex justify-center">
+      <button class="mx-2 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.open('https://disysco.com.mx/', '_blank')" style="background-color: #f7630c; color: #fff;">
         ¡CONOCENOS!
       </button>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
+      <button class=" mx-2 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
       focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='#form'" style="background-color: #f7630c; color: #fff;">
         ¡REGISTRATE!
       </button>
-
-      <br />
-      <br />
-      <br />
-      
+      </div>
     </div>
     <!-- Right Col -->
     <div class="w-full md:w-1/2">
@@ -488,12 +487,12 @@ Desde cualquier dispositivo con acceso a internet.
         </g>
       </g>
     </svg> -->
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section id="form" class="container mx-auto text-center py-6 mb-12">
 
       <div class="pt-24">
   <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <!--Left Col-->
-    <div id="form" class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
+    <div  class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
    
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
@@ -517,23 +516,10 @@ Desde cualquier dispositivo con acceso a internet.
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
           <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
-          <div id="success-message" class="hidden bg-green-200 text-green-800 p-2 rounded my-4">
-    Se envió correctamente.
-</div>
+          
         </form>
       </div> 
     </div>
-
-    <script>
-    function mostrarMensaje() {
-        var successMessage = document.getElementById('success-message');
-        successMessage.classList.remove('hidden');
-        setTimeout(function() {
-            successMessage.classList.add('hidden');
-        }, 3000); // La duración en milisegundos antes de que el mensaje desaparezca (en este caso, 3 segundos)
-    }
-</script>
-
 
     <!--Right Col-->
     <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
@@ -570,14 +556,14 @@ Desde cualquier dispositivo con acceso a internet.
             <ul class="list-reset mb-6">
               
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/axb1y4" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
+                <a href="https://api.whatsapp.com/send?phone=7294988003&text=Hola,%20requiero%20informaci%C3%B3n%20de%20un%20producto/servicio." class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ayuda</a>
               </li>
               
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
+                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
               </li>
               
             </ul>

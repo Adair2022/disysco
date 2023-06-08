@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    
+    <link href="https://www.dafontfree.net/embed/YnJpdGFubmljLWJvbGQtcmVndWxhciZkYXRhLzEzL2IvNjQ1MzAvQlJJVEFOSUMuVFRG" rel="stylesheet" type="text/css"/>
     <title>
       DISYSCO - Digital Systems Consulting
     </title>
@@ -28,7 +28,7 @@
     <!-- Define your gradient here - use online tools to find a gradient matching your branding AZUL #04b5d9  NARANJA #f77320 -->
     <style>
       .gradient {
-        background: linear-gradient(90deg, #04b5d9 0%, #f77320 100%);
+        background: linear-gradient(90deg, #04b5d9 0%, #AEF8FF  100%);
       }
       #header {
       background-color: rgba(255, 255, 255, 0.8);
@@ -101,6 +101,14 @@
   transform: scale(1.1);
 }
 
+.center-button {
+  display: block;
+  margin-left: 45px;
+  margin-right: auto;
+}
+
+
+
     </style>
   
   </head>
@@ -146,96 +154,51 @@
           
           <button 
             id="navAction"
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-            onclick="window.open('https://wa.link/vp5rxt','_blanck')";>
+            class="mx-auto lg:mx-0 hover:underline bg-blue-500 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            onclick="window.open('https://wa.link/vp5rxt', '_blank')" style="background-color: #f7630c; color: #fff;";>
             WHATSAPP
           </button>
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-<!-- PRUEBA FORM -->
-    <div class="pt-24">
-  <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-    <!--Left Col-->
-    <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
-      <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p>
-      <h1 class="my-4 text-7xl font-bold leading-tight">
-      SEGURIDAD EN TODO LUGAR
-      </h1>
-      <p class="leading-normal text-3xl mb-8 text-left">
-      🟠 SISTEMAS DE VIDEOVIGILANCIA
+
+    <div class="pt-24 ">
+<div class="flex flex-col md:flex-row items-center">
+  <!--Left Col-->
+  <div class="flex flex-col w-full md:w-1/3 justify-center items-start text-center md:text-center md:pr-16 animate__animated animate__fadeInLeft">
+    <!-- <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p>-->
+    <h1 class="my-4 text-6xl font-bold " style="text-transform: uppercase; line-height: 150%;">
+      <span style="font-size: 140%;">S</span><span style="font-size: 115%;">eguridad <br />en</span> <span style="font-size: 115%;">Todo</span> <span style="font-size: 140%;">L</span><span style="font-size: 115%;">ugar</span>
+    </h1>
+    <!-- <p class="leading-normal text-3xl mb-8 text-center ml-4" style="text-transform: uppercase; ">
+    👨‍💻 <span style="font-size: 130%;">S</span><span style="font-size: 100%;">ISTEMAS DE</span> <span style="font-size: 130%;">V</span><span style="font-size: 100%;">IDEOVIGILANCIA</span>
+      
       <br />
-      🟠 GPS
+      ⚡ <span style="font-size: 130%;">C</span><span style="font-size: 100%;">ERCOS</span> <span style="font-size: 130%;">E</span><span style="font-size: 100%;">LECTRIFICADOS</span>
       <br />
-      🟠 CERCOS ELECTRIFICADOS
-      </p>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"  onclick="window.open('https://disysco.com.mx/','_blanck')";>
-        ¡CONOCENOS!
-      </button>
-      <br />
-      <br />
-      <br />
-    </div>
-    <!--Right Col-->
-    <div  class="w-full md:w-1/2 animate__animated animate__fadeInRight">
-      <div class="container mx-auto">
-        <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
-        <form method="post" action="{{ url('landseguridad')}}" id="agregar"  enctype="multipart/form-data">
-          @csrf
-          <div class="form-group flex flex-col text-left">
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre" class="form-control" required>
-          </div>
-          <div class="form-group flex flex-col text-left">
-              <label for="email">Correo</label>
-              <input type="email" name="email" id="email" class="form-control" required>
-          </div>
-          <div class="form-group flex flex-col text-left">
-              <label for="telefono">Teléfono</label>
-              <input type="tel" name="telefono" id="telefono" class="form-control" required>
-          </div>
-          
-          <div class="form-group flex flex-col text-left">
-              <label for="asunto">Asunto</label>
-              <input type="text" name="asunto" id="asunto" class="form-control" required>
-          </div>
-          <button type="submit" value="save" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
-        </form>
-      </div> 
-    </div>
+      📍🗺️ <span style="font-size: 130%;">S</span><span style="font-size: 100%;">ISTEMAS</span> <span style="font-size: 130%;">GPS</span>
+    </p> -->
+    <br />
+
+    <div class="flex justify-center">
+  <button class="center-button mx-2 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
+  focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.open('https://disysco.com.mx/','_blank')" >¡CONÓCENOS!</button>
+  <button class="center-button mx-2 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
+  focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='#form'">¡REGÍSTRATE!</button>
+</div>
+
+  </div>
+
+  <!--Right Col-->
+ 
+  <div class="w-full md:w-2/3">
+    <!-- Aquí va tu imagen -->
+    <img class="w-full md:w-3/3 lg:w2/2 xl:w-5/5" src="security.png" />
   </div>
 </div>
-<!-- <script>
-    function mostrarMensaje() {
-        var successMessage = document.getElementById('success-message');
-        successMessage.classList.remove('hidden');
-        setTimeout(function() {
-            successMessage.classList.add('hidden');
-        }, 3000); // La duración en milisegundos antes de que el mensaje desaparezca (en este caso, 3 segundos)
-    }
-</script> -->
+</div>
 
-    <!-- <div class="relative -mt-12 lg:-mt-24">
-      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-            <path
-              d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-              opacity="0.100000001"
-            ></path>
-            <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
-          </g>
-          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <path
-              d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
-            ></path>
-          </g>
-        </g>
-      </svg>
-    </div>  -->
 
 <!-- slider -->
 <!-- <section class="bg-white border-b py-8">
@@ -481,50 +444,79 @@
         </g>
       </g>
     </svg> -->
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section id="form" class="container mx-auto text-center py-6 mb-12">
+
+      <div class="pt-24">
+  <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <!--Left Col-->
+    <div  class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
+   
+      <div class="container mx-auto">
+        <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
+        <form method="post" action="{{ url('landseguridad')}}" id="agregar"  enctype="multipart/form-data">
+          @csrf
+          <div class="form-group flex flex-col text-left">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" class="form-control" required>
+          </div>
+          <div class="form-group flex flex-col text-left">
+              <label for="email">Correo</label>
+              <input type="email" name="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group flex flex-col text-left">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" name="telefono" id="telefono" class="form-control" required>
+          </div>
+          
+          <div class="form-group flex flex-col text-left">
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" id="asunto" class="form-control" required>
+          </div>
+          <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          
+        </form>
+      </div> 
+    </div>
+
+    <!--Right Col-->
+    <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
+      
     <img class="h-24 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
-      <!-- <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        CONTÁCTANOS
-      </h2> -->
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <h3 class="my-4 text-2xl leading-tight">
+    <h3 class="my-4 text-2xl leading-tight text-center" style="color: #163d5a;"> 
         Atención y Ventas Telefónicas
         <br/>
-        <i class="fas fa-phone mr-2"> +52 722 934 6686</i>
+        <i class="fas fa-phone mr-2" style="color: #163d5a;"> +52 722 934 6686</i>
         <br/>
-        <i class="fas fa-phone mr-2"> +52 722 943 6687</i>
+        <i class="fas fa-phone mr-2" style="color: #163d5a;"> +52 722 943 6687</i>
       </h3>
-      <!-- <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-      focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" onclick="window.location.href='https://wa.link/vp5rxt'">
-        WhatsApp
-      </button> -->
+
+    </div>
+  </div>
+</div>
+
     </section>
     <!--Footer-->
-    <footer class="bg-white">
+    <footer class="bg-white ">
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
           <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-              
+            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">             
               <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
               <img class="h-12 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
-              </svg>
-              
+              </svg>             
             </a>
           </div>
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/axb1y4" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
+                <a href="https://api.whatsapp.com/send?phone=7294988003&text=Hola,%20requiero%20informaci%C3%B3n%20de%20un%20producto/servicio." class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
               </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ayuda</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/lon9to" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
+                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
               </li>
               
             </ul>

@@ -7,6 +7,10 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Storelandpage1Request;
 use App\Http\Requests\Updatelandpage1Request;
 
+use App\Mail\ContactFormMail;
+use Illuminate\Support\Facades\Mail;
+
+
 class Landpage1Controller extends Controller
 {
     /**
@@ -46,7 +50,10 @@ class Landpage1Controller extends Controller
         $landpage1=$request->all();
 
         Landpage1::create($landpage1);
+
+        
         return redirect()->route('landseguridad.index')->with('agregar','Ok');
+        
     }
 
     /**
