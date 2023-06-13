@@ -159,18 +159,18 @@
     </nav>
 <!-- PRUEBA FORM -->
 
-<div class="pt-10  bg-white">
+<div class="pt-20  bg-white">
   <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <!-- Left Col -->
     <div class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
       <!-- <p class="uppercase tracking-loose w-full text-2xl">PARA CUALQUIER REQUERIMIENTO</p> -->
-      <h1 class="my-4 text-6xl md:text-8xl font-bold" style="color: #163d5a;">
+      <h1 class="my-4 text-6xl md:text-8xl font-bold" style="color: #163d5a; ">
         SOLUCIONES DIGITALES
       </h1>
       <p class="leading-normal text-lg md:text-2xl mb-8 animate__animated animate__fadeIn " style="color: #000000;">
       🟠 En DISYSCO nos especializamos desde el desarrollo de una marca hasta el desarrollo completo del área de marketing en cualquier empresa o negocio.
         <br/><br/>
-      🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de community manager.
+      🟠 Así mismo creamos y desarrollamos campañas de publicidad en los distintos medios digitales, desde el diseño, gestión de respuesta hasta un completo manejo de Community Manager.
       </p>
       <div class="flex justify-center">
       <button class="mx-2 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
@@ -224,52 +224,6 @@
     </svg>
   </div>
 </section>
-
-
-<!-- slider -->
-<!-- <section class="bg-white border-b py-8">
-    <section class="regular slider">
-    <div>
-    <a href="https://disysco.com.mx/contacto/" target="_blank">
-      <img  src="registro de marca.jpg">
-    </a>
-    </div>
-    <div>
-      <img src="servicios.jpg">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-  </section>
-  </section>
-
-
-  <script src="https://kenwheeler.github.io/slick/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-  
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true, // Agregar esta línea para habilitar la animación de fundido
-    cssEase: 'linear' // Agregar esta línea para definir la curva de la animación
-      });
-  
-    });
-</script> -->
 
 
     <section class="bg-white border-b py-8">
@@ -359,7 +313,6 @@
               </div>
               <p class="text-gray-800 text-base px-6 mb-5 text-justify">
               <br/>
-              
 Ahora en Disysco te ayudamos en la creación de tu página web donde desarrollamos desde host mini a un empresarial, plantillas y diseño web. Activación inmediata, cuentas de e-mail personalizadas 
 con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.95 %.  
               <br />
@@ -387,9 +340,8 @@ con nombre de dominio, confiabilidad y disponibilidad de tu página web del 99.9
         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <br/>
-                <a class="flex flex-wrap no-underline hover:no-underline">     
-                
-      <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a;">
+                <a class="flex flex-wrap no-underline hover:no-underline">            
+      <div class="w-full font-bold text-xl text-gray-800 px-6 text-center" style="font-size: 2.5rem; color: #163d5a; uppercase; line-height: 100%;">
         FACTURACIÓN ELECTRÓNICA
         <div class="w-full mb-4">
           <br/>
@@ -418,9 +370,7 @@ Desde cualquier dispositivo con acceso a internet.
   </div> 
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="text-center">
-            
             <img class="h-60 fill-current inline image-zoom" src="Facturacion.png">
-
             </div>
             <div class="text-center">
             <br/>
@@ -435,7 +385,6 @@ Desde cualquier dispositivo con acceso a internet.
         </div>
       </div>
     </section>
-
     <section class="bg-white border-b py-8 ">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800" style="color: #163d5a;">
@@ -450,13 +399,12 @@ Desde cualquier dispositivo con acceso a internet.
               ¿Por qué elegirnos?
             </h3> --> 
             <p class="text-gray-600 mb-8 text-justify">
-            Nos especializamos en el desarrollo de soluciones digitales, manteniéndonos a la vanguardia gracias a la constante capacitación de nuestros profesionales, logrando que tu empresa tenga la mejor atención y conocimiento para solucionar las diferentes adversidades que el mercado actual exige. 
+              Nos especializamos en el desarrollo de soluciones digitales, manteniéndonos a la vanguardia gracias a la constante capacitación de nuestros profesionales, logrando que tu empresa tenga la mejor atención y conocimiento para solucionar las diferentes adversidades que el mercado actual exige. 
               <br />
               <br />
               Estamos comprometidos contigo para que tu empresa o negocio siga creciendo y este preparado para las nuevas tendencias del mercado y el comportamiento del cliente.
             </p>
           </div>
-          
           <div class="w-full sm:w-1/2 p-6">
           <img class="h-64 fill-current inline image-zoom" src="marketing.png">
           </div>
@@ -465,35 +413,11 @@ Desde cualquier dispositivo con acceso a internet.
       </div>
     </section>
     
-    <!-- Change the colour #f8fafc to match the previous section colour -->
-    <!-- <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
-            <path
-              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
-            ></path>
-          </g>
-          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-              <path
-                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                opacity="0.100000001"
-              ></path>
-              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg> -->
     <section id="form" class="container mx-auto text-center py-6 mb-12">
-
       <div class="pt-24">
   <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <!--Left Col-->
     <div  class="flex flex-col w-full md:w-1/2 justify-center items-start text-center md:text-left md:pr-16 animate__animated animate__fadeInLeft">
-   
       <div class="container mx-auto">
         <h1 class="leading-normal text-3xl mb-8 font-bold" >Contacto</h1>
         <form method="post" action="{{ url('landmarketing')}}" id="agregar"  enctype="multipart/form-data">
@@ -510,20 +434,17 @@ Desde cualquier dispositivo con acceso a internet.
               <label for="telefono">Teléfono</label>
               <input type="tel" name="telefono" id="telefono" class="form-control" required>
           </div>
-          
           <div class="form-group flex flex-col text-left">
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
-          <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
-          
+          <button type="submit" value="save"  class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
         </form>
       </div> 
     </div>
 
     <!--Right Col-->
     <div class="w-full md:w-1/2 animate__animated animate__fadeInRight">
-      
     <img class="h-24 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
     <h3 class="my-4 text-2xl leading-tight text-center">
         Atención y Ventas Telefónicas
@@ -532,11 +453,9 @@ Desde cualquier dispositivo con acceso a internet.
         <br/>
         <i class="fas fa-phone mr-2"> +52 722 943 6687</i>
       </h3>
-
     </div>
   </div>
 </div>
-
     </section>
     <!--Footer-->
     <footer class="bg-white">
@@ -544,26 +463,24 @@ Desde cualquier dispositivo con acceso a internet.
         <div class="w-full flex flex-col md:flex-row py-6">
           <div class="flex-1 mb-6 text-black">
             <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-              
               <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
               <img class="h-12 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005" src="logo disysco r.PNG" />
-              </svg>
-              
+              </svg>  
             </a>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
+            <p class="uppercase text-gray-500 md:mb-6">LINKS</p>
             <ul class="list-reset mb-6">
               
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="https://api.whatsapp.com/send?phone=7294988003&text=Hola,%20requiero%20informaci%C3%B3n%20de%20un%20producto/servicio." class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ventas</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Ayuda</a>
+                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">AYUDA</a>
               </li>
               
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">Soporte</a>
+                <a href="https://wa.link/4c2qrz" class="no-underline hover:underline text-gray-800 hover:text-blue-500" target="_blanck">SOPORTE</a>
               </li>
               
             </ul>

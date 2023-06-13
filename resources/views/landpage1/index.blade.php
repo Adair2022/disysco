@@ -138,18 +138,11 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-2">
-              
-              <!-- <p class="leading-normal text-2xl mb-8 text-black text-center">
-              ¡Haz tus cotizaciones!
-              </p>
-            </li> -->
             
              <li class="mr-3">
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://wa.link/4sx8d7" target="_blanck">¡Haz tus cotizaciones!</a>
             </li>
-            <!--<li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-            </li> -->
+            
           </ul>
           
           <button 
@@ -171,14 +164,7 @@
     <h1 class="my-4 text-6xl font-bold " style="text-transform: uppercase; line-height: 150%;">
       <span style="font-size: 140%;">S</span><span style="font-size: 115%;">eguridad <br />en</span> <span style="font-size: 115%;">Todo</span> <span style="font-size: 140%;">L</span><span style="font-size: 115%;">ugar</span>
     </h1>
-    <!-- <p class="leading-normal text-3xl mb-8 text-center ml-4" style="text-transform: uppercase; ">
-    👨‍💻 <span style="font-size: 130%;">S</span><span style="font-size: 100%;">ISTEMAS DE</span> <span style="font-size: 130%;">V</span><span style="font-size: 100%;">IDEOVIGILANCIA</span>
-      
-      <br />
-      ⚡ <span style="font-size: 130%;">C</span><span style="font-size: 100%;">ERCOS</span> <span style="font-size: 130%;">E</span><span style="font-size: 100%;">LECTRIFICADOS</span>
-      <br />
-      📍🗺️ <span style="font-size: 130%;">S</span><span style="font-size: 100%;">ISTEMAS</span> <span style="font-size: 130%;">GPS</span>
-    </p> -->
+    
     <br />
 
     <div class="flex justify-center">
@@ -200,67 +186,9 @@
 </div>
 
 
-<!-- slider -->
-<!-- <section class="bg-white border-b py-8">
-    <section class="regular slider">
-    <div>
-    <a href="https://disysco.com.mx/contacto/" target="_blank">
-      <img  src="registro de marca.jpg">
-    </a>
-    </div>
-    <div>
-      <img src="servicios.jpg">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-  </section>
-  </section>
-
-
-  <script src="https://kenwheeler.github.io/slick/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-  
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true, // Agregar esta línea para habilitar la animación de fundido
-    cssEase: 'linear' // Agregar esta línea para definir la curva de la animación
-      });
-  
-    });
-</script> -->
-
-
     <section class="bg-white border-b py-8" >
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <!-- <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        SERVICIOS PRINCIPALES 
-        </h2> -->
-       
-       
 
-
-        <!-- <div class="w-full  mb-4">
-          
-          <div class="h-1  mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          
-        </div> -->
-        
         <div class="w-full  md:w-1/3 p-6 flex flex-col flex-grow flex-shrink animate__animated animate__fadeIn image-zoom"  >
 
         
@@ -386,64 +314,8 @@
       </div>
     </section>
 
-    <!-- <section class="bg-white border-b py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        TENEMOS UN PLAN A TU MEDIDA
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              ¿Por qué elegirnos?
-            </h3> 
-            <p class="text-gray-600 mb-8 text-justify">
-            Somos distribuidores oficiales de las marcas Epcom y Dahua; contamos con certificacion de 
-            Hikvision: GPS, cámaras de tablero con sensor DSM para conducción
-             
-              <br />
-              <br />
-              Tenemos garantía en todos nuestros productos, pólizas y soluciones.
-            </p>
-          </div>
-          
-          <div class="w-full sm:w-1/2 p-6">
-
-          <img class="h-64 fill-current inline" src="porque nosotros.png">
-          
-            
-          </div>
-        </div>
-        
-          
-        </div>
-      </div>
-    </section> -->
     
-    <!-- Change the colour #f8fafc to match the previous section colour -->
-    <!-- <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
-            <path
-              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
-            ></path>
-          </g>
-          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-              <path
-                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                opacity="0.100000001"
-              ></path>
-              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg> -->
+
     <section id="form" class="container mx-auto text-center py-6 mb-12">
 
       <div class="pt-24">
@@ -472,7 +344,7 @@
               <label for="asunto">Asunto</label>
               <input type="text" name="asunto" id="asunto" class="form-control" required>
           </div>
-          <button type="submit" value="save" onclick="mostrarMensaje()" class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
+          <button type="submit" value="save"  class="btn btn-primary shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" >Enviar</button>
           
         </form>
       </div> 
@@ -521,17 +393,7 @@
               
             </ul>
           </div>
-         <!--  <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
-              </li>
-            </ul>
-          </div> -->
+
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Redes Sociales</p>
             <ul class="list-reset mb-6">
